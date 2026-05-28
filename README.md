@@ -3,6 +3,7 @@ My homelab project
 Network Architecture
 
 Ubuntu Server - - - - Windows 10 | <-------- Kali
+
 <img width="399" height="278" alt="image" src="https://github.com/user-attachments/assets/1e8b877f-8750-46d3-aed7-767f3980107a" />
 
 I started with creating a secure and useful setup for Ubuntu Server. I needed to open the SSH securely, to operate via Windows10. I could not get the guest additions done on the ubuntu server for some reason (ctrl+c, ctr+v), but could on Windows10. The screenshot shows the successful creation of an SSH key pair on an Ubuntu system using the ssh-keygen command with the Ed25519 algorithm. <img width="1024" height="768" alt="VirtualBox_Windows_03_05_2026_23_48_34" src="https://github.com/user-attachments/assets/9c9f9c35-bd78-4ac0-8789-1eb0a4d8dcd2" /> 
