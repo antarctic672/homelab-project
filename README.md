@@ -3,6 +3,8 @@ My homelab project
 Network Architecture
 
 Ubuntu Server 192.168.0.20 - - - - Windows10 192.168.0.19 | <-------- Kali 192.168.0.17
+Internal Network 1st adapter
+NAT 2nd adapter (for internet access)
 
 (eventually chose not to include metasploitable)
 <img width="399" height="278" alt="image" src="https://github.com/user-attachments/assets/1e8b877f-8750-46d3-aed7-767f3980107a" />
