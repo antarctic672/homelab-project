@@ -1,5 +1,4 @@
 # homelab-project
-My homelab project
 Network Architecture
 
 Ubuntu Server 192.168.0.20 - - - - Windows10 192.168.0.19 | <-------- Kali 192.168.0.17
