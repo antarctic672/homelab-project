@@ -56,5 +56,5 @@ Because I did not configure DLP in Wazuh, I've successfully exfiltrated them fro
 
 
 This is my first lab. Probably the documentation is not that serious, and I am sorry for that. But at least you can truly see how things are working out for me.
-I don't have any new labs on my mind, but definitely, after this one, I will look for other chances to gain new hands on experience. Currently I am pursuing CCNA certification, learning the material and doing cisco labs. So far I like the material, and I will hold tight to keep the discipline for doing it.
+I don't have any new labs on my mind, but definitely, after this one, I will look for other chances to gain new hands on experience. Currently I am pursuing CCNA certification, learning the material and doing cisco labs. So far I like the material, and I will hold tight to keep the discipline.
 I guess see you soon :/
