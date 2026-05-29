@@ -34,10 +34,10 @@ Here I've noticed a critical vulnerability and decided to mitigate it. CVE-2026-
 <img width="1133" height="754" alt="critical vulnerability1" src="https://github.com/user-attachments/assets/e712e1ab-ae6e-4633-b34f-ebd95201dbb6" />
 
 Then, I tried to generate and investigate the traffic/events in SIEM. I used a kali linux, which is under the same network with windows10 and ubuntu server.
-Brute force attack over SSH <img width="1920" height="974" alt="VirtualBox_Kali_28_05_2026_21_22_53" src="https://github.com/user-attachments/assets/8c19997b-d405-43a4-8fb5-9ab4f58724ba" />
+Brute force attack over SSH. Logged into the windows10 via SSH. (could not brute force it, logged in by myself:)  )  <img width="1920" height="974" alt="VirtualBox_Kali_28_05_2026_21_22_53" src="https://github.com/user-attachments/assets/8c19997b-d405-43a4-8fb5-9ab4f58724ba" />
 <img width="1133" height="865" alt="loged in siem" src="https://github.com/user-attachments/assets/6670861d-4806-45d3-936d-1086ae4890fc" />
 
-Logged into the windows10 via SSH. <img width="1133" height="865" alt="kali brute force (easy)" src="https://github.com/user-attachments/assets/e628b98d-7467-4f77-b65b-c257971323d5" />
+
 
 Played a bit with groups and rights. Added a user with administrator group.<img width="1920" height="974" alt="VirtualBox_Kali_28_05_2026_21_36_18" src="https://github.com/user-attachments/assets/561c0e0c-77d2-44c7-84ba-7fe46e480b30" />
 <img width="1133" height="865" alt="siem user add" src="https://github.com/user-attachments/assets/2f9c92be-db48-4cd0-804b-cb000dbe3cb2" />
