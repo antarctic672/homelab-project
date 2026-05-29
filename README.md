@@ -2,7 +2,7 @@
 My homelab project
 Network Architecture
 
-Ubuntu Server - - - - Windows 10 | <-------- Kali
+Ubuntu Server 192.168.0.20 - - - - Windows10 192.168.0.19 | <-------- Kali 192.168.0.17
 
 (eventually chose not to include metasploitable)
 <img width="399" height="278" alt="image" src="https://github.com/user-attachments/assets/1e8b877f-8750-46d3-aed7-767f3980107a" />
@@ -11,7 +11,7 @@ I started with creating a secure and useful setup for Ubuntu Server. I needed to
 The next stage involved configuring key-based authentication between the Windows client and the remote Ubuntu server. <img width="1024" height="768" alt="VirtualBox_Windows_04_05_2026_00_20_28" src="https://github.com/user-attachments/assets/161e2454-01e8-43ea-bc3d-64c305088f11" /> 
 Here I am logged in with the passphrase<img width="1024" height="861" alt="VirtualBox_Windows_04_05_2026_00_24_10" src="https://github.com/user-attachments/assets/acafe90d-e5cb-4eff-94eb-a282e121b024" />
 
-I also played a bit with the firewall. Probably forgot to take a screenshot, but I changed the ssh port from 22 to 2222 for security reasons. I used the sshd config file and edited the settings there.<img width="1920" height="974" alt="VirtualBox_Windows_06_05_2026_21_23_50" src="https://github.com/user-attachments/assets/5d3d0872-da51-47f9-a1d9-c8628c71fc31" />
+I also played a bit with the firewall. Probably forgot to take a screenshot, but I changed the ssh port from 22 to 2222 for security reasons. I used the sshd config file and edited the settings there. The SSH rule is only allowed for the windows10. <img width="1920" height="974" alt="VirtualBox_Windows_06_05_2026_21_23_50" src="https://github.com/user-attachments/assets/5d3d0872-da51-47f9-a1d9-c8628c71fc31" />
 
 Here you can see the current firewall rules as for the finish of this lab. Setting up VM's sometimes gets intense in terms of hardware/software issues and therefore I forget to document this lab (i fight to solve them and forget about documentation xD). The 1514, 1515, and 55000 ports are used for the Wazuh services, so I added them during Wazuh implementation. And I also opened the 443, but forgot to delete the IPv6 version (not critical). <img width="1024" height="768" alt="VirtualBox_Ubuntu Server_28_05_2026_22_46_53" src="https://github.com/user-attachments/assets/15efd387-9f0b-4603-89b1-a7e3fc2c2220" />
 
