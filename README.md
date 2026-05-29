@@ -45,9 +45,15 @@ Played a bit with groups and rights. Added a user with administrator group. (you
 Tried to login to ubuntu from windows10 via SSH. Firewall in ubuntu server only allows port 2222(ssh) from windows10 <img width="1920" height="974" alt="failed login to ubuntu" src="https://github.com/user-attachments/assets/6e16bc41-7512-4164-9565-1f97983dc13a" />
 <img width="1133" height="865" alt="failed login to ubuntu" src="https://github.com/user-attachments/assets/b543ba4d-f6e9-420e-8c99-7dbcf4d4b84e" />
 
-Here, in the windows10 I am checking for any files, which might be interesting for the attacker. And indeed I find them)<img width="1920" height="974" alt="checking for secrets" src="https://github.com/user-attachments/assets/a4635343-057c-40d4-a450-30036ca8a170" />
+Here, in the windows10 I am checking for any files, which might be interesting for the attacker. And indeed I find them)
 <img width="1920" height="974" alt="checking for secrets 0" src="https://github.com/user-attachments/assets/cc108ccd-cd9a-44c7-b6c1-8df1700b5468" />
+<img width="1920" height="974" alt="checking for secrets" src="https://github.com/user-attachments/assets/a4635343-057c-40d4-a450-30036ca8a170" />
 
 Because I did not configure DLP in Wazuh, I've successfully exfiltrated them from windows10 to kali machine and there were no alerts regarding it. And also, because I found the passphrase to ubuntu server, I managed to log into it. The SIEM did not show anything regarding login to ubuntu server. Probably because I did not configure it, or because windows10 is a trusted endpoint. <img width="1133" height="865" alt="no data exfiltration or dlp" src="https://github.com/user-attachments/assets/491f9e7d-5243-4f37-a44c-f663025b8467" />
 <img width="1920" height="974" alt="exfiltrating and logging into the ubuntu" src="https://github.com/user-attachments/assets/4b3abb49-24b9-44c5-b722-e01d02ecdb69" />
-![Uploading no data exfiltration or dlp.png…]()
+
+
+
+This is my first lab. Probably the documentation is not that serious, and I am sorry for that. But at least you can truly see how things are working out for me.
+I don't have any new labs on my mind, but definitely, after this one, I will look for other chances to gain new hands on experience. Currently I am pursuing CCNA certification, learning the material and doing cisco labs. So far I like the material, and I will hold tight to keep the discipline for doing it.
+I guess see you soon :/
