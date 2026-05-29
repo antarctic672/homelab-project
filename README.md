@@ -39,10 +39,10 @@ Brute force attack over SSH. Logged into the windows10 via SSH. (could not brute
 
 
 
-Played a bit with groups and rights. Added a user with administrator group.<img width="1920" height="974" alt="VirtualBox_Kali_28_05_2026_21_36_18" src="https://github.com/user-attachments/assets/561c0e0c-77d2-44c7-84ba-7fe46e480b30" />
+Played a bit with groups and rights. Added a user with administrator group. (you can see that change in administrator rights triggered the siem. it is the highest level so far - 12) <img width="1920" height="974" alt="VirtualBox_Kali_28_05_2026_21_36_18" src="https://github.com/user-attachments/assets/561c0e0c-77d2-44c7-84ba-7fe46e480b30" />
 <img width="1133" height="865" alt="failed login to ubuntu" src="https://github.com/user-attachments/assets/b543ba4d-f6e9-420e-8c99-7dbcf4d4b84e" />
 
-Tried to login to ubuntu from windows10 via SSH. Firewall in ubuntu server only allows port 2222(ssh) from windows10 (you can see that change in administrator rights triggered the siem. it is the highest level so far - 12)<img width="1920" height="974" alt="failed login to ubuntu" src="https://github.com/user-attachments/assets/6e16bc41-7512-4164-9565-1f97983dc13a" />
+Tried to login to ubuntu from windows10 via SSH. Firewall in ubuntu server only allows port 2222(ssh) from windows10 <img width="1920" height="974" alt="failed login to ubuntu" src="https://github.com/user-attachments/assets/6e16bc41-7512-4164-9565-1f97983dc13a" />
 <img width="1133" height="865" alt="failed login to ubuntu" src="https://github.com/user-attachments/assets/b543ba4d-f6e9-420e-8c99-7dbcf4d4b84e" />
 
 Here, in the windows10 I am checking for any files, which might be interesting for the attacker. And indeed I find them)<img width="1920" height="974" alt="checking for secrets" src="https://github.com/user-attachments/assets/a4635343-057c-40d4-a450-30036ca8a170" />
