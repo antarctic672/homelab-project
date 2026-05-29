@@ -39,8 +39,8 @@ Brute force attack over SSH. Logged into the windows10 via SSH. (could not brute
 
 
 
-Played a bit with groups and rights. Added a user with administrator group.(I believe that I've added the user in this screenshot, and the administrator group is coming in next screenshots)<img width="1920" height="974" alt="VirtualBox_Kali_28_05_2026_21_36_18" src="https://github.com/user-attachments/assets/561c0e0c-77d2-44c7-84ba-7fe46e480b30" />
-<img width="1133" height="865" alt="siem user add" src="https://github.com/user-attachments/assets/2f9c92be-db48-4cd0-804b-cb000dbe3cb2" />
+Played a bit with groups and rights. Added a user with administrator group.<img width="1920" height="974" alt="VirtualBox_Kali_28_05_2026_21_36_18" src="https://github.com/user-attachments/assets/561c0e0c-77d2-44c7-84ba-7fe46e480b30" />
+<img width="1133" height="865" alt="failed login to ubuntu" src="https://github.com/user-attachments/assets/b543ba4d-f6e9-420e-8c99-7dbcf4d4b84e" />
 
 Tried to login to ubuntu from windows10 via SSH. Firewall in ubuntu server only allows port 2222(ssh) from windows10 (you can see that change in administrator rights triggered the siem. it is the highest level so far - 12)<img width="1920" height="974" alt="failed login to ubuntu" src="https://github.com/user-attachments/assets/6e16bc41-7512-4164-9565-1f97983dc13a" />
 <img width="1133" height="865" alt="failed login to ubuntu" src="https://github.com/user-attachments/assets/b543ba4d-f6e9-420e-8c99-7dbcf4d4b84e" />
